@@ -188,6 +188,22 @@ body {
 
     
 }
+.product-button.added-to-cart,
+.product-button:disabled {
+    background-color: #9e9e9e;
+    cursor: not-allowed;
+}
+
+.cart { position: relative; }
+.cart_quantity_count {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #faf9f9;
+}
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
     .product-card {
